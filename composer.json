@@ -1,0 +1,31 @@
+{
+  "name": "ASHE/ashepay-php",
+  "description": "ASHE Online Payment PHP Library",
+  "version": "1.0.0",
+  "type": "library",
+  "keywords": ["ASHE","ashepay","payment"],
+  "homepage": "https://www.ashepay.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Newman Wu",
+      "email": "newman@ashepay.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.2.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "ASHE": "lib/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/ashenetwork/Ashe-PHP"
+    }
+  ]
+}
